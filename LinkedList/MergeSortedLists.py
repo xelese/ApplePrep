@@ -6,7 +6,7 @@ class Node:
         self.val = val
 
 
-def mergeSortedLists(l1, l2):
+def mergeSortedLists(l1: Node, l2: Node) -> Node:
     if l1 is None and l2 is None:
         return Node()
 
